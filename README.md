@@ -31,7 +31,7 @@ const myStyle = loadStyle(json);
 
 A useful case is to use loadStyle to load a style from a remote source:
 
-**https://example.com/style.json**:
+Suppose this file is served on **https://example.com/style.json**:
 
 ```json
 {
@@ -80,6 +80,8 @@ A useful case is to use loadStyle to load a style from a remote source:
     }
 }
 ```
+
+You can then use the following code to load the style:
 
 ```js
 import { loadStyle } from "ol-json-style";
