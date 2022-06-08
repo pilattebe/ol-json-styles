@@ -1,0 +1,9 @@
+{
+  "name": "ol-json-style",
+  "version": "1.0.0",
+  "description": "This package can read and write a serialized version of ol styles, making it easily sharable and storable.",
+  "main": "index.js",
+  "repository": "https://github.com/pilatte/ol-json-styles",
+  "author": "Benoit PILATTE",
+  "license": "BSD 2-Clause \"Simplified\" "
+}
