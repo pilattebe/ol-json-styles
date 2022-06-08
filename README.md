@@ -1,3 +1,3 @@
 # ol-json-styles
 
-This package can read and write a serialized version of Openlayers styles, making it easily sharable and storable.
+This package can use json instead of classes to make OpenLayers style easily shareable.

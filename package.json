@@ -1,30 +1,26 @@
 {
-  "name": "ol-json-style",
-  "version": "1.0.0",
-  "description": "This package can read and write a serialized version of ol styles, making it easily sharable and storable.",
-  "repository": "https://github.com/pilatte/ol-json-styles",
-  "author": "Benoit PILATTE",
-  "license": "BSD 2-Clause \"Simplified\" ",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc",
-    "publish": "npm publish"
-  },
-  "keywords": [
-    "openlayers",
-    "typescript",
-    "style",
-    "json",
-    "ol"
-  ],
-  "devDependencies": {
-    "typescript": "^4.0.3"
-  },
-  "files": [
-    "dist/**/*"
-  ],
-  "dependencies": {
-    "ol": "^6.14.1"
-  }
+    "name": "ol-json-style",
+    "version": "1.0.0",
+    "description": "This package can use json instead of classes to make OpenLayers style easily shareable.",
+    "repository": "https://github.com/pilatte/ol-json-styles",
+    "author": "Benoit PILATTE",
+    "license": "BSD 2-Clause \"Simplified\" ",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "publish": "npm publish"
+    },
+    "keywords": [
+        "openlayers",
+        "typescript",
+        "style",
+        "json",
+        "ol"
+    ],
+    "devDependencies": {
+        "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "ol": "^6.14.1"
+    }
 }
