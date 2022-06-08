@@ -17,5 +17,5 @@ const json = {
         },
     },
 };
-loadStyle(json);
+const style = loadStyle(json);
 ```
