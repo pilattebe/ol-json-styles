@@ -2,6 +2,12 @@
 
 This package can use json instead of classes to make OpenLayers style easily shareable.
 
+```
+npm install ol-json-styles
+# or
+yarn add ol-json-styles
+```
+
 ```js
 import { loadStyle } from "ol-json-style";
 
