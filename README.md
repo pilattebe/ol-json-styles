@@ -1,6 +1,6 @@
 # ol-json-styles
 
-This package can use json instead of classes to make OpenLayers style easily shareable.
+This [npm package](https://www.npmjs.com/package/ol-json-style) can use json instead of classes to make OpenLayers style easily shareable.
 
 ```
 npm install ol-json-styles
